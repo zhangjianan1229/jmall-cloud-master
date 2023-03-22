@@ -1,0 +1,3 @@
+com.jmall.system.api.factory.RemoteUserFallbackFactory
+com.jmall.system.api.factory.RemoteLogFallbackFactory
+com.jmall.system.api.factory.RemoteFileFallbackFactory

@@ -1,0 +1,5 @@
+com.jmall.common.security.config.WebMvcConfig
+com.jmall.common.security.service.TokenService
+com.jmall.common.security.aspect.PreAuthorizeAspect
+com.jmall.common.security.aspect.InnerAuthAspect
+com.jmall.common.security.handler.GlobalExceptionHandler

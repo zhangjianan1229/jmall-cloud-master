@@ -1,0 +1,15 @@
+# 基础镜像
+FROM  openjdk:8-jre
+# author
+MAINTAINER jmall
+
+# 挂载目录
+VOLUME /home/jmall
+# 创建目录
+RUN mkdir -p /home/jmall
+# 指定路径
+WORKDIR /home/jmall
+# 复制jar文件到路径
+COPY ./jar/jmall-modules-system.jar /home/jmall/jmall-modules-system.jar
+# 启动系统服务
+ENTRYPOINT ["java","-jar","jmall-modules-system.jar"]

@@ -1,0 +1,2 @@
+com.jmall.common.log.service.AsyncLogService
+com.jmall.common.log.aspect.LogAspect
