@@ -1,11 +1,11 @@
-DROP DATABASE IF EXISTS `ry-seata`;
+DROP DATABASE IF EXISTS `jmall-seata`;
 
-CREATE DATABASE  `ry-seata` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE  `jmall-seata` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
-USE `ry-seata`;
+USE `jmall-seata`;
 
 -- -------------------------------- The script used when storeMode is 'db' --------------------------------
 -- the table to store GlobalSession data
